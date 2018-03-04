@@ -1,0 +1,16 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    data-username: root
+    data-password: root
+    url: jdbc:mysql://39.106.164.238/sell?characterEncoding=utf-8&&useSSL=false
+  jpa:
+    show-sql: true
+server:
+  context-path: /sell
+#logging:
+#  pattern:
+#    console: "%d - %msg%n"
+##  path: E:\workspace\workspace_idea\wx_sell
+#  file: E:\workspace\workspace_idea\wx_sell\sell.log
+#  level: debug
