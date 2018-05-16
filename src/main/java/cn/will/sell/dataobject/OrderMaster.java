@@ -1,7 +1,7 @@
 package cn.will.sell.dataobject;
 
-import com.imooc.enums.OrderStatusEnum;
-import com.imooc.enums.PayStatusEnum;
+import cn.will.sell.enums.OrderStatusEnum;
+import cn.will.sell.enums.PayStatusEnum;
 import lombok.Data;
 import org.hibernate.annotations.DynamicUpdate;
 

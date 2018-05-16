@@ -1,8 +1,8 @@
 package cn.will.sell.dataobject;
 
+import cn.will.sell.enums.ProductStatusEnum;
+import cn.will.sell.utils.EnumUtil;
 import com.fasterxml.jackson.annotation.JsonIgnore;
-import com.imooc.enums.ProductStatusEnum;
-import com.imooc.utils.EnumUtil;
 import lombok.Data;
 import org.hibernate.annotations.DynamicUpdate;
 
